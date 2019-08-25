@@ -1,0 +1,45 @@
+
+body {
+    background-image: url("../images/background.png");
+    color: #ffffff;
+    text-align: left;
+    font-family:'Righteous', cursive;
+}
+
+.cover-heading{
+    margin-top: 40px;
+    font-size: 80px;
+}
+
+#game-start{
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+#countdown {
+    font-size: 26px;
+    color:#ffffff;
+}
+
+#game-done {
+    font-size: 40px;
+}
+
+.lead2 {
+    font-size: 30px;
+    color: #e60909;
+}
+
+.quest {
+    font-size: 26px;
+    color: #e60909;
+   
+}
+
+.text-mysize {
+    font-size: 20px;
+}
+
+.trivia-ques {
+    background-color: black;
+}

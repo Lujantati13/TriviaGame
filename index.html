@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+   
+ 
+</head>
+      <body class="text-center">
+
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            
+   
+                <main role="main" class="inner cover">
+                        <h1 class="cover-heading">Totally Trivial Trivia!</h1>
+                        <p class="lead btn btn-lg btn-danger" id="game-start">Start</p>
+                        <div class="col-lg-4 col-lg-offset-4 text-center">
+                            <p id="countdown">Time Remaining:<span id="timer"></span></p>
+                        </div>
+                </main>
+              
+                <div class="trivia-ques text-center">
+                    <p class="quest">1. What game are the guys playing in the very first scene which they appear in?</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> The Game of Life
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Dungeons and Dragons  
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Uno  
+                        </label>
+                    </form>
+
+                    <p class="quest">2. What's the name of the dark dimension in which Will is trapped in season 1?</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> The Upside Down 
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> The Inside Out 
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> The Underground  
+                        </label>
+                    </form>
+
+                    <p class="quest">3. What's the name of the town in which Stranger Things is set?</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Dover, Delaware   
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Hawkins, Indiana 
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Derry, Main
+                        </label>
+                    </form>
+
+                    <p class="quest">4. What is the name of Nancy's friend who had an untimely demise in season 1.</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Barb 
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Deb 
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Ashley 
+                        </label>
+                    </form>
+
+                    <p class="quest">5. What is Eleven's favourite food?</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Eggos  
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Pancakes  
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> walffle  
+                        </label>
+                    </form>
+
+                    <p class="quest">6. What was the boy's Halloween costume in season 2?</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> The Avengers  
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Starwars 
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Ghostbusters
+                        </label>
+                    </form>
+
+                    <p class="quest">7. What is Chief Hopper's first name?</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Tom  
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Jim 
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Tim
+                        </label>
+                    </form>
+
+                    <p class="quest">8. What nickname do the gang give to the creatures that are let loose in season 2?</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Demonds     
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Demogorgon     
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Night Crawlers    
+                        </label>
+                    </form>
+                
+                   
+                    <div>
+                        <p class="lead btn btn-lg btn-danger" id="game-done">Done
+                        </p>
+                    </div>
+                </div>
+
+            
+                    <div class="results">
+                        <p class="lead2" id="summary">All Done!</p> 
+                        <p class="lead2" id="correctScore">Correct Answers:</p>
+                        <p class="lead2" id="wrongScore"></p>
+                        <p class="lead2" id="unanswered"></p>
+                    </div>
+                
+        </div>  
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="javascript/app.js"></script>
+
+      </body>
+</html>
